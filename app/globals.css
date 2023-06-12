@@ -39,3 +39,10 @@ background: radial-gradient(circle farthest-corner at center center, #B0A8B9 0%,
 -webkit-text-fill-color: transparent;
 
 }
+.text_gray_gradient{
+  background: #C6C6C6;
+background: linear-gradient(to right, #C6C6C6 0%, #D1D1D1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2rem;
+}
