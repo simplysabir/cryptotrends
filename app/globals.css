@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.text_blue_gradient{
+  background: #4D8076;
+background: repeating-radial-gradient(ellipse farthest-corner at center center, #4D8076 0%, #C4FCEF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.text_purple_gradient{
+  background: #B0A8B9;
+background: radial-gradient(circle farthest-corner at center center, #B0A8B9 0%, #4B4453 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
