@@ -46,3 +46,6 @@ background: linear-gradient(to right, #C6C6C6 0%, #D1D1D1 100%);
 -webkit-text-fill-color: transparent;
 font-size: 2rem;
 }
+.section_heading{
+  font-size: 1.8rem;
+}
