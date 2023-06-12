@@ -1,4 +1,5 @@
 import React from 'react';
+import NewsCard from './NewsCard';
 
 const LatestNews = () => {
   return (
@@ -7,7 +8,7 @@ const LatestNews = () => {
         <h1 className='text-center px-3 py-1  bg-slate-400 text-white rounded-lg'>Latest News</h1>
       </div>
       <div>
-
+        <NewsCard />
       </div>
     </section>
   )
