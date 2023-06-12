@@ -1,7 +1,7 @@
 "use client";
 import React, {useState, useEffect} from 'react';
 import Link from 'next/link';
-
+import { X_RAPID_API_KEY, X_RAPID_API_HOST } from '../constants/constant'
 const NewsCard = () => {
     const [news, setNews] = useState([]);
 
@@ -12,8 +12,8 @@ const NewsCard = () => {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
-                    'X-RapidAPI-Key': '069c3cc0dfmsh5ecc76f47d66dedp1ec696jsnd16896fe03e7',
-                    'X-RapidAPI-Host': 'cryptoinfo.p.rapidapi.com'
+                    'X-RapidAPI-Key': X_RAPID_API_KEY,
+                    'X-RapidAPI-Host': X_RAPID_API_HOST,
              }
             };
 

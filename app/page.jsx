@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      {/* <LatestNews /> */}
+      <LatestNews />
       <Footer/>
     </>
   )
