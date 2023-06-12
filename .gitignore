@@ -11,9 +11,7 @@
 # next.js
 /.next/
 /out/
-constants/*
-constants/constant.js
-constant.js
+
 
 # production
 /build
