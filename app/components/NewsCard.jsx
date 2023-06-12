@@ -1,5 +1,6 @@
 "use client";
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
+import Link from 'next/link';
 
 const NewsCard = () => {
     const [news, setNews] = useState([]);
@@ -36,9 +37,31 @@ const NewsCard = () => {
         fetchNews();
     },[])
   return (
-    <section>
-       <div className='card rounded-md '>
-        <h1> </h1>
+    <section className='px-2 latest_news'>
+        
+        <div className='card rounded-md mt-2 p-2'>
+            <h1 className='font-mono font-bold'>{news[0].data.en.header}</h1>
+            <p className='font-sans font-semibold'>{news[0].data.en.summary}</p>
+       </div>
+
+       <div className='card rounded-md mt-2 p-2'>
+            <h1 className='font-mono font-bold'>{news[1].data.en.header}</h1>
+            <p className='font-sans font-semibold'>{news[1].data.en.summary}</p>
+       </div>
+
+       <div className='card rounded-md mt-2 p-2'>
+            <h1 className='font-mono font-bold'>{news[2].data.en.header}</h1>
+            <p className='font-sans font-semibold'>{news[2].data.en.summary}</p>
+       </div>
+
+       <div className='card rounded-md mt-2 p-2'>
+            <h1 className='font-mono font-bold'>{news[3].data.en.header}</h1>
+            <p className='font-sans font-semibold'>{news[3].data.en.summary}</p>
+       </div>
+
+       <div className='card rounded-md mt-2 p-2'>
+            <h1 className='font-mono font-bold'>{news[4].data.en.header}</h1>
+            <p className='font-sans font-semibold'>{news[4].data.en.summary}</p>
        </div>
     </section>
   )
